@@ -64,3 +64,7 @@ body {
 📝 Licencia
 Este proyecto es de uso libre para fines educativos o personales. Si lo utilizas en producción, considera dar crédito al autor original o personalizarlo completamente.
 
+---
+
+👤 Autor
+Desarrollado por Ing. Cristian Díaz
