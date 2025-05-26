@@ -1,0 +1,28 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos temporales
+*.log
+*.tmp
+*.swp
+
+# Archivos del editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de sistema de Mac/Linux/Windows
+ehthumbs.db
+Desktop.ini
+
+# Archivos de producción generados manualmente (opcional)
+dist/
+build/
+
+# Archivos ocultos de navegadores (como Live Server)
+.livereload*
+
+# node_modules (en caso de que uses herramientas más adelante)
+node_modules/
