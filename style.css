@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap");
 
+html {
+  font-size: 100%; /* 1rem = 16px por defecto */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +16,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  
+
   background: url("https://i.pinimg.com/1200x/d4/c7/5f/d4c75f71f2f01ec68fc12b688205fbc9.jpg")
     no-repeat;
   background-size: cover;
@@ -20,27 +24,27 @@ body {
 }
 
 .wrapper {
-  margin-top: 40px;
-  width: 420px;
+  margin-top: 2.5rem; /* 40px */
+  width: 26.25rem; /* 420px */
   background-color: transparent;
-  border: 2px solid rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(15px);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 0.125rem solid rgba(255, 255, 255, 0.2); /* 2px */
+  backdrop-filter: blur(0.9375rem); /* 15px */
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.2); /* 10px */
   color: #fff;
-  border-radius: 16px;
-  padding: 20px 30px;
+  border-radius: 1rem; /* 16px */
+  padding: 1.25rem 1.875rem; /* 20px 30px */
 }
 
 .wrapper h1 {
-  font-size: 30px;
+  font-size: 1.875rem; /* 30px */
   text-align: center;
 }
 
 .wrapper .input-box {
   width: 100%;
-  height: 50px;
+  height: 3.125rem; /* 50px */
   position: relative;
-  margin: 30px 0;
+  margin: 1.875rem 0; /* 30px */
 }
 
 .input-box input {
@@ -49,11 +53,11 @@ body {
   background: transparent;
   border: none;
   outline: none;
-  border: 2px solid rgba(255, 255, 255, 0.2);
-  border-radius: 40px;
-  font-size: 16px;
+  border: 0.125rem solid rgba(255, 255, 255, 0.2); /* 2px */
+  border-radius: 2.5rem; /* 40px */
+  font-size: 1rem; /* 16px */
   color: #fff;
-  padding: 20px 45px 20px 20px;
+  padding: 1.25rem 2.8125rem 1.25rem 1.25rem; /* 20px 45px 20px 20px */
 }
 
 .input-box input::placeholder {
@@ -62,22 +66,22 @@ body {
 
 .input-box i {
   position: absolute;
-  right: 20px;
+  right: 1.25rem; /* 20px */
   top: 50%;
   transform: translateY(-50%);
-  font-size: 20px;
+  font-size: 1.25rem; /* 20px */
 }
 
 .wrapper .remember-forgot {
   display: flex;
   justify-content: space-between;
-  font-size: 14px;
-  margin: -15px 0 15px;
+  font-size: 0.875rem; /* 14px */
+  margin: -0.9375rem 0 0.9375rem; /* -15px 0 15px */
 }
 
 .remember-forgot label input {
   accent-color: #fff;
-  margin-right: 3px;
+  margin-right: 0.1875rem; /* 3px */
 }
 
 .remember-forgot a {
@@ -91,22 +95,22 @@ body {
 
 .wrapper .btn {
   width: 100%;
-  height: 45px;
+  height: 2.8125rem; /* 45px */
   background: #fff;
   border: none;
   outline: none;
-  border-radius: 40px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 2.5rem; /* 40px */
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1); /* 10px */
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1rem; /* 16px */
   color: #333;
   font-weight: 600;
 }
 
 .wrapper .register-link {
   text-align: center;
-  font-size: 14px;
-  margin: 20px 0 15px;
+  font-size: 0.875rem; /* 14px */
+  margin: 1.25rem 0 0.9375rem; /* 20px 0 15px */
 }
 
 .wrapper .register-link p a {
